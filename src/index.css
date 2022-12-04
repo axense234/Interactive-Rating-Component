@@ -30,8 +30,9 @@ body {
   gap: 1rem;
   padding: 2.5rem;
   background-color: rgba(17, 24, 39, 0.95);
-  width: 50%;
+  width: 30rem;
   border-radius: 2rem;
+  transition: width 0.3s;
 }
 
 .star-container {
@@ -118,9 +119,25 @@ svg {
   text-align: center;
   color: rgb(252, 118, 20);
   transition: background-color 0.3s, color 0.3s;
+  border: none;
 }
 
 .rating-component-container > button:hover {
   background-color: rgb(252, 118, 20);
   color: black;
+}
+
+@media all and (max-width: 525px) {
+  .rating-component-container {
+    width: 20rem;
+  }
+  .stars-container {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 330px) {
+  .rating-component-container {
+    width: 18rem;
+  }
 }
