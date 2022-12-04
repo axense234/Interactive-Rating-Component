@@ -1,0 +1,10 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-undef": "off",
+    "no-else-return": "off",
+    "react/function-component-definition": "off",
+    "react/no-unescaped-entities": "off"
+  }
+}
