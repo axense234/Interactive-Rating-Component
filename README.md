@@ -21,9 +21,20 @@ git clone https://github.com/axense234/Interactive-Rating-Component.git
 
 ### Executing program
 
+- **Using NPM**
+
 ```
 npm install
 npm start
+```
+
+- **Using Docker**
+
+```
+docker build -t irc-react:0.3.0 .
+docker stop irc-react-app
+docker rm irc-react-app
+docker run -d -p 3000:3000 --name irc-react-app irc-react:0.3.0
 ```
 
 ## **Authors**
@@ -32,6 +43,8 @@ npm start
 
 ## **Version History**
 
+- 0.3
+  - Analyzed the code to gather to-do tasks, added Docker.
 - 0.2
   - Upgraded README.md and added a LICENSE.md file.
   - See [commit change](https://github.com/axense234/Interactive-Rating-Component/commits/master) or See [release history](https://github.com/axense234/Interactive-Rating-Component/releases)
