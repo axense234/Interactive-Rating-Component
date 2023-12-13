@@ -67,6 +67,7 @@ body {
   border-radius: 1rem;
   font-size: 1.1rem;
   color: rgb(252, 118, 20);
+  text-align: center;
 }
 
 svg {
@@ -135,6 +136,7 @@ svg {
     width: 100%;
   }
 }
+
 
 @media all and (max-width: 330px) {
   .rating-component-container {
