@@ -12,6 +12,8 @@ The project is about a simple react component that receives input based on numbe
 ### Dependencies
 
 - Check package.json for details.
+- Git
+- Docker(optional)
 
 ### Installing
 
